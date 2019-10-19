@@ -1,5 +1,16 @@
 # Serverless Node.js Starter
 
+endpoints:
+  POST - https://2988ucacqe.execute-api.ap-northeast-2.amazonaws.com/prod/notes
+  GET - https://2988ucacqe.execute-api.ap-northeast-2.amazonaws.com/prod/notes/{id}
+  GET - https://2988ucacqe.execute-api.ap-northeast-2.amazonaws.com/prod/notes
+  PUT - https://2988ucacqe.execute-api.ap-northeast-2.amazonaws.com/prod/nodes/{id}
+  DELETE - https://2988ucacqe.execute-api.ap-northeast-2.amazonaws.com/prod/notes/{id}
+  POST - https://2988ucacqe.execute-api.ap-northeast-2.amazonaws.com/prod/billing
+
+ap-northeast-2:1b998be7-6adc-437c-be53-70cd0a084474
+
+
 A Serverless starter that adds ES7 syntax, serverless-offline, linting, environment variables, and unit test support. Part of the [Serverless Stack](http://serverless-stack.com) guide.
 
 [Serverless Node.js Starter](https://github.com/AnomalyInnovations/serverless-nodejs-starter) uses the [serverless-bundle](https://github.com/AnomalyInnovations/serverless-bundle) plugin (an extension of the [serverless-webpack](https://github.com/serverless-heaven/serverless-webpack) plugin) and the [serverless-offline](https://github.com/dherault/serverless-offline) plugin. It supports:

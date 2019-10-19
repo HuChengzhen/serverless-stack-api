@@ -59,10 +59,10 @@ functions:
     handler: list.main
     events:
       - http:
-        path: notes
-        method: get
-        cors: true
-        authorizer: aws_iam
+          path: notes
+          method: get
+          cors: true
+          authorizer: aws_iam
 
   update:
     handler: update.main
